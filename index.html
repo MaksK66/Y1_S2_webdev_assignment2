@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="bg-dark">
-    <!--NavBar-->
+    <!--Header-->
     <nav class="navbar navbar-expand-lg bg-light mb-3" id="home">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Job Listing Website</a>
@@ -67,11 +67,20 @@
                     </button>
                 </div>
             </div>
-            <div class="col-md-4 mt-lg-0 mt-md-4 mt-sm-3 mt-n2 mb-lg-n3">
-                <div class="text-dark px-2 py-1 p-lg-3 bg-info rounded">
-                    <div class="py-lg-2">
+            <div class="col-md-4 mb-4">
+              <div class="py-4 bg-light rounded">
+                <h4 class="text-center">Job Listing Profile</h4>
+                <div class="text-center">
+                    <button class="btn btn-primary" type="button">Sign Up</button>
+                    <button class="btn btn-secondary" type="button">Log In</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="text-dark px-2 py-5 p-lg-3 bg-info rounded h-100">
+                    <div class="h-100">
                         <form>
-                            <h4 class="search-title text-center text-light">Search for job opportunities</h4>
+                            <h4 class="search-title text-center text-light">Search For Job Opportunities</h4>
                             <div class="mb-3 py-3">
                             <input type="search" class="form-control" id="search" placeholder="Search">
                             </div>
@@ -79,9 +88,26 @@
                     </div>
                 </div>  
             </div>
-            <div class="mt-4 mb-lg-4 py-1 bg-secondary text-light text-center rounded" id="about">
-                <h4 class="about-title">About Our Cause</h4>
-                <p>We are dedicated to helping job seekers to find the right opportunities for them by connecting them with the best employers. Our platform provides a user-friendly interface for browsing job listings and for applying for positions since 1999</p>
+            <div class="col-md-4 mb-4">
+              <div class="bg-secondary text-light text-center rounded h-100" id="about">
+                <div class="h-100">
+                  <h4 class="about-title">About Our Cause</h4>
+                  <p>We are dedicated to helping job seekers to find the right opportunities for them by connecting them with the best employers. Our platform provides a user-friendly interface for browsing job listings and for applying for positions since 1999</p>
+                </div>
+              </div>
+          </div>
+            <div class="col-md-4 mb-4">
+                <div class="px-4 py-1 bg-info rounded h-100">
+                  <div class="h-100">
+                    <h4 class="text-center text-light">Suggestions Filter</h4>
+                    <div class="mb-2">
+                        <input type="text" class="form-control" placeholder="Enter Location">
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-success">Locate Jobs Near You</button>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
