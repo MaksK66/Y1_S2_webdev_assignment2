@@ -75,9 +75,25 @@
               <div class="py-4 bg-light rounded" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);">
                 <h4 class="text-center" style="font-family: 'Roboto', sans-serif;">Job Listing Profile</h4>
                 <div class="text-center">
-                    <button class="btn btn-primary" type="button">Sign Up</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
                     <button class="btn btn-secondary" type="button">Log In</button>
                 </div>
+              </div>
+            </div>
+            <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="signupModalLabel">Welcome!</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <p>Welcome New User!</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                  </div>
               </div>
             </div>
             <div class="col-md-4 mb-4">
